@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Session 6 Jun</title>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.css" />
+    <style>
+      .bg {
+        background-image: linear-gradient(
+          180deg,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0.4) 50%,
+        rgba(0, 0, 0, 0.9) 100%
+          ),
+          url(background.jpeg);
+        background-size: cover;
+        height: 100%;
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-repeat: no-repeat;
+      }
+      button {
+        background-color: #E50914;
+        color: white;
+        border: 0;
+        height: 33px;
+        padding-left: 5px;
+        border-radius: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-10">
+          <span class="d-flex justify-content-between"
+            ><img src="netflix.png" style="width: 200px"/>
+            <span class='pt-4' 
+              ><select
+                style="
+                  background-color: rgba(0, 0, 0, 0.445);
+                  color: white;
+                  height: 32px;
+                "
+              >
+                <option value="eng" selected>🌐 English</option>
+                <option value="ind">🌐 Bahasa Indonesia</option>
+              </select>
+              <span class="ms-4">
+              <button style="padding: 7px 17px">Sign In</button></span
+            ></span
+          >
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <div class="row" style="padding-top: 180px">
+      <div class="col"></div>
+      <h1
+        class="col-4 text-center text-white"
+        style="font-size: 3vw"
+      >
+        Unlimited movies, TV shows, and more.
+      </h1>
+      <div class="col"></div>
+    </div>
+    <div class="row">
+      <div class="col"></div>
+      <h1
+        class="col-4 pt-1 pb-2 text-center h4 text-white fw-light"
+      >
+        Watch anywhere. Cancel anytime.
+      </h1>
+      <div class="col"></div>
+    </div>
+    <div class="row row-pt-6">
+      <div class="col"></div>
+      <h1
+        class="col-5 pt-3 h6 text-center text-white fw-light"
+      >
+        Ready to watch? Enter Your email to create or restart your membership.
+      </h1>
+      <div class="col"></div>
+    </div>
+    <div class="row pt-6">
+      <div class="col-4"></div>
+      <div class="col">
+        <div class="input-group mt-3 mb-3" style="display: flex; flex-wrap: wrap;">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Email address"
+          />
+          <button
+            class="btn btn-outline-secondary ps-4 pe-4 text-white"
+            style="
+              background-color: #E50914;
+              border: 0;
+              height: 6vh;
+              font-size: 2.5vh;
+            "
+          >
+            Get Started >
+          </button>
+        </div>
+      </div>
+      <div class="col-4"></div>
+    </div>
+    <!-- </div> -->
+  </body>
+</html>

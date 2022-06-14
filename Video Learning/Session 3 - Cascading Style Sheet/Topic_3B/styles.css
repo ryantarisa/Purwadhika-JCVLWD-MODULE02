@@ -1,0 +1,31 @@
+div {
+  background-color: darkslategray;
+}
+
+div:hover {
+  background-color: lightpink;
+}
+
+.btnAku {
+  background-color: maroon;
+  color: aliceblue;
+}
+
+.btnAku:hover {
+  background-color: aliceblue;
+  color: maroon;
+}
+
+.btnAku:active {
+  background-color: whitesmoke;
+  color: red;
+}
+
+p::first-line {
+  color: burlywood;
+}
+
+p::after {
+  content: "Ini tag P bang";
+  color: darkmagenta;
+}

@@ -1,0 +1,20 @@
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.blue {
+  background-color: #082a54;
+}
+
+.red {
+  background-color: #610a0b;
+}
+
+.bg-car {
+  background-image: url(PngItem_1234209.png);
+  background-size: 150px;
+  height: 1500px;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}

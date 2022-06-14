@@ -1,0 +1,17 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.blue {
+  color: #164975;
+}
+
+.blue-rgba {
+  color: rgba(22, 117, 25, 0.6);
+}
+
+.blue-hsl {
+  color: hsl(hue, saturation, lightness);
+}

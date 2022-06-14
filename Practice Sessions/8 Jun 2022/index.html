@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Practice Session</title>
+    <link rel="stylesheet" href="../7 Jun 2022/bootstrap5/css/bootstrap.css">
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.orange-square div {
+  padding: 50px;
+  margin-bottom: 8px;
+  background-color: #f78f2f;
+}
+
+.neon-square div {
+  padding: 50px;
+  margin-bottom: 26px;
+  margin-top: 26px;
+  background-color: #a8e207;
+}
+
+.blue-square div {
+  padding: 100px;
+  margin-bottom: 8px;
+  background-color: #0880f0;
+
+}
+
+.grey-square div {
+  padding: 50px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: #696969;
+
+}
+
+@media (min-width:320px) {
+    [class*="-square"]{
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .grey-square {display: flex;
+align-content: flex-start;}
+
+    .neon-square div{
+        padding: 150px;
+        margin-bottom: 26px;
+    }
+    .blue-square div{
+        padding: 70px;
+    }
+    .grey-square div{
+  width: 50%;
+}
+
+}
+
+@media(min-width:1024px) {
+.orange-square {display: flex;
+align-self: auto;}
+.blue-square {display: flex;
+align-self: auto;}
+.grey-square {display: flex;
+align-self: auto;}
+    .orange-square div{
+  width: 50%;
+margin-left: 20px ;
+margin-right: 20px ;
+}
+
+    .neon-square div{
+        padding: 200px;
+        margin-left: 20px ;
+        margin-right: 20px ;
+    }
+
+    .blue-square div{
+        padding: 120px;
+        margin-left: 20px ;
+  margin-right: 18px;
+        width: 50%;
+    }
+
+    .grey-square div{
+        width: 25%;
+        height: 150px;
+        margin-left: 20px ;
+        margin-right: 20px ;
+        margin-top: 20px;
+    }
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="row">
+        <div class="orange-square">
+     <div></div>
+    <div></div>
+        </div>
+    <div class="row">
+        <div class="neon-square">
+<div></div>
+        </div>
+    <div class="row">
+        <div class="blue-square">
+<div></div>
+<div></div>
+<div></div>
+        </div>
+    <div class="row">
+        <div class="grey-square">
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+        </div>
+  </body>
+</html>

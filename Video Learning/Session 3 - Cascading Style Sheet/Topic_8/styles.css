@@ -1,0 +1,22 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.orange {
+  background-color: coral;
+}
+
+.blue {
+  background-color: darkcyan;
+}
+
+.beige {
+  background-color: bisque;
+}
